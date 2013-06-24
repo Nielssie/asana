@@ -370,7 +370,7 @@ class AsanaAPI(object):
         """
         return self._asana_post('tasks/%d/addTag' % task_id, {'tag': tag_id})
 
-   def remove_tag_task(self, task_id, tag_id):
+    def remove_tag_task(self, task_id, tag_id):
         """Tag a task
 
         :param task_id: id# of task
